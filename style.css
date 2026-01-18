@@ -4,18 +4,25 @@
     box-sizing:border-box;
 }
 body{
-    background: ;
+    background-image: url(image/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
 
 }
 nav{
-    padding:16px 200px;
+    padding:16px 5%;
     border-bottom:1px solid rgba(65,37,103,1);
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    width: 1600px;
+    width: 100%;
     height: 100px;
     align-items: center;
+    color: white;
 }
 nav>p{
     font-size: 40px;
@@ -25,7 +32,7 @@ nav>p{
 }
 nav>div{
     width: 218px;
-    height: 19px;
+    height: 19px ;
     display: flex;
     gap: 32px;
     align-items: center;
@@ -42,6 +49,21 @@ nav>div{
 }
 nav>span{
     margin-right: 5px;
+}
+.hero-container{
+    align-items: center;
+    min-height: 80vh;
+   /* margin-top: 10px;*/
+    width: 350px;
+    height:350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
 }
 
 
